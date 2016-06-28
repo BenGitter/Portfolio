@@ -1,0 +1,123 @@
+body{
+    background-color: #c5cae9;
+    font-family: "Roboto";
+}
+#aboutMe{
+    /*height: 300px;*/
+    background-color:  #5c6bc0;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: sans-serif;
+    background: url(img/front_img.jpg);
+    background-size: cover;
+    /*box-shadow: 0 6px 6px rgba(0,0,0,0.15), 0px 3px 3px rgba(0,0,0,0.2);*/
+    box-shadow: inset 0 0 0 1000px rgba(0,0,30,.8);
+}
+#aboutMe h2{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#aboutMe h4{
+    text-align: right;
+    margin-bottom: 40px;
+}
+#aboutMe img{
+    margin-bottom: -30px;
+    opacity: 0.5;
+}
+
+#portfolio{
+    /*height: 700px;*/
+    padding-bottom: 50px;
+    box-shadow: inset 0 4px 4px -4px #000;
+
+}
+#portfolio #title{
+    border-bottom: 5px solid rgba(0,0,20,0.4);
+}
+#portItems{
+    padding-top: 20px;
+}
+#portItems .col-xs-6.col-sm-4.col-md-3{
+    /*height: 200px;
+    background-color: rgb(150,150,190);*/
+    border: 5px solid #c5cae9;
+    /*opacity: 0.7;*/
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#portItems .col-xs-6.col-sm-4.col-md-3:hover .title{
+    /*opacity: 1;*/
+    background-color: #ff80ab;
+}
+#portItems .img-responsive{
+    margin-left: 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+}
+#portItems .title{
+    background-color: #7986cb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+}
+#portItems .col-xs-6.col-sm-4.col-md-3 .col-xs-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#contact{
+    /*height: 150px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  rgb(150,150,240);
+}
+
+#contact #facebook{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #3B579C;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 4px 4px 4px rgba(0,0,0,0.23);
+    transition: all 0.2s ease-in-out;
+    float: right;
+}
+#contact #facebook:hover{
+    box-shadow: 0 6px 12px rgba(0,0,0,0.19), 2px 2px 2px rgba(0,0,0,0.23);
+}
+#contact #facebook img{
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 70px;
+}
+
+#contact #fcc{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #492C14;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 4px 4px 4px rgba(0,0,0,0.23);
+    transition: all 0.2s ease-in-out;
+}
+#contact #fcc:hover{
+    box-shadow: 0 6px 12px rgba(0,0,0,0.19), 2px 2px 2px rgba(0,0,0,0.23);
+}
+#contact #fcc img{
+    padding-top: 5px;
+    padding-left: 0px;
+    width: 99px;
+}
+
+.navbar-default{
+    /*background-color: #ff80ab;*/
+    box-shadow: 0 6px 6px rgba(0,0,0,0.15), 0px 2px 2px rgba(0,0,0,0.2);
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    /*background-color:  #ff4081;*/
+    color:  #f50057;
+}
+
+.row.border{
+    box-shadow: inset 0 -4px 4px -4px #ff80ab;
+    height: 10px;
+}
