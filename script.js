@@ -44,11 +44,12 @@ function setTime(){
     }else if(hour < 24){
         message = "evening";
     }
-    console.log(hour);
 
     if(message !== ""){
         $("#time").html("Good " + message + ",");
     }
+
+    console.log(message);
 }
 
 setTime();
